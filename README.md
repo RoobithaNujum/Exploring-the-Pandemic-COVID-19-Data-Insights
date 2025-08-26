@@ -17,6 +17,7 @@ Datasets Used
 Data Preparation, Modeling & DAX
 
 The project began with preparing the raw datasets in Excel, where initial cleaning steps such as fixing inconsistent country names, removing null values, trimming extra spaces, and ensuring consistent data types were applied. After cleaning, the data was loaded into Power BI for advanced modeling. A proper dimensional model was created in which a central fact table containing daily case counts was connected to supporting dimension tables such as date, geography, and demographics. Relationships were defined in a star schema structure, ensuring that filters flow from dimensions to the fact table in a controlled manner. This modeling approach allowed flexible slicing and dicing of the data across time, region, and population metrics.
+
 To derive meaningful insights, a series of DAX measures were created. These included basic aggregations (total cases, deaths, recovered, active), calculated rates (fatality, recovery, active percentages), per capita metrics (cases or deaths per million), and time intelligence measures (month-to-date, quarter-to-date, year-to-date). Together, these measures provided both absolute and relative views of the pandemic, enabling analysis across regions and time periods with accuracy and comparability.
 
 Key Insights
