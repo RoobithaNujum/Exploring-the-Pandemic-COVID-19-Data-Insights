@@ -26,6 +26,7 @@ Key Insights
 - Mortality (CFR %) varies significantly across continents.
 - Growth curves reveal waves of infections in certain time periods.
 
+
 Conclusion
 
 This project demonstrates how Power BI can transform raw COVID-19 data into actionable insights through:
